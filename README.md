@@ -1,0 +1,2 @@
+# FAI
+Financial Artificial Intelligence
