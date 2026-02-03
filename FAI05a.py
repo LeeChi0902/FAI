@@ -22,6 +22,7 @@ IRR 輸出到: FAI05e_股票數據分析.xlsx
 天、720 天 Sharpe ratio 輸出到: FAI05f_股票數據分析.xlsx
 註: IRR=累積內部報酬率、IRRy=年化內部報酬率。3 天無法算出 σ，因此 Sharpe ratio
 改為 10 天
+每題 20%，總分 120%
 '''
 #1.先下載近三年資料
 #2.做一個比較近x天IRR並列出前y名的funtion
@@ -110,4 +111,3 @@ days_list = [3, 5, 10, 20, 60, 120, 240, 480, 720]
 process(TW_data, 'a', 'b')
 process(TWO_data, 'c', 'd')
 process(Total_data, 'e', 'f')
-
